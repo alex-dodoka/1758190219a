@@ -1,5 +1,12 @@
 const months = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
-const names = ["Авдей", "Аверкий", "Авксентий", "Агафон", "Алексей", "Агафья", "Агриппина", "Акулина","Инесса"];
+const names = ["Авдей", "Аверкий", "Авксентий", "Агафон", "Алексей", "Агафья", "Агриппина", "Акулина", "Инесса"];
+
+document.onkeydown = function (ev) {
+    if (ev.ctrlKey == true && ev.code == "Enter") {
+        createNewComment();
+    }
+
+};
 
 function createNewComment() {
     const commentSpaceDiv = document.getElementById("comments");
