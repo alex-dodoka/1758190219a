@@ -2,7 +2,7 @@ const months = ["января", "февраля", "марта", "апреля", 
 const names = ["Авдей", "Аверкий", "Авксентий", "Агафон", "Алексей", "Агафья", "Агриппина", "Акулина", "Инесса"];
 
 document.onkeydown = function (ev) {
-    if (ev.ctrlKey == true && ev.code == "Enter") {
+    if (ev.ctrlKey && ev.code == "Enter") {
         createNewComment();
     }
 
