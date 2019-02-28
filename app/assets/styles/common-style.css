@@ -1,0 +1,391 @@
+/*Start CSS Normalizer*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+    display: block;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1.618em;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+i {
+    font-style: italic;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+strong, b {
+    font-weight: 700;
+}
+
+a, input[type="submit"], .btn {
+    cursor: pointer;
+    transition: .5s;
+}
+
+input[type="text"] {
+    transition: .5s;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+}
+
+* input, textarea {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+input[placeholder] {
+    text-overflow: ellipsis;
+}
+
+input::-moz-placeholder {
+    text-overflow: ellipsis;
+}
+
+input:-moz-placeholder {
+    text-overflow: ellipsis;
+}
+
+input:-ms-input-placeholder {
+    text-overflow: ellipsis;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+:focus::-moz-placeholder {
+    color: transparent;
+}
+
+:focus:-moz-placeholder {
+    color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+/*End CSS Normalizer*/
+
+p {
+    display: inline-block;
+}
+
+textarea {
+    width: 100%;
+    height: 65px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.44), inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    resize: none;
+
+}
+
+.wrapper {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    background-color: #ffffff;
+    max-width: 505px;
+    min-width: 320px;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px;
+
+
+}
+
+.manager-avatar {
+    margin-top: -5px;
+
+}
+
+.manager-avatar img {
+    border-radius: 50%;
+
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 5%;
+}
+
+.profession {
+    color: #808080;
+    font-family: "Arial -MT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.manager-name {
+    color: #333333;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.manager {
+    display: flex;
+    margin-bottom: -10px;
+}
+
+.manager .manager-avatar {
+    width: 31%;
+    flex-shrink: 0;
+    z-index: 1;
+    text-align: right;
+
+
+}
+
+.manager .manager-info {
+    width: 70%;
+
+}
+
+.manager .manager-name {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.manager .manager-post {
+    font-size: 12px;
+    color: #ccc;
+    line-height: 1;
+
+}
+
+.manager .manager-slogan {
+    background: #fffbc8;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(60, 44, 0, 0.25);
+    padding: 10px 10px 10px 29%;
+    width: calc(100% + 70px);
+    margin-left: -100px;
+    box-sizing: border-box;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.manager .manager-slogan p {
+    line-height: 1;
+    display: block;
+}
+
+
+.services-wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.services {
+    margin-bottom: 40px;
+    width: 64%;
+    margin-right: 5%;
+}
+
+.services-title {
+    text-align: right;
+    display: block;
+    padding-right: 45px;
+    font-size: 14px;
+
+}
+
+.services-list {
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 45px;
+}
+
+.services-item {
+    display: flex;
+    margin: 1px auto;
+    padding: 2px 0;
+    width: 100%;
+}
+
+.services-item .column1 {
+    width: 90%;
+    position: relative;
+
+}
+
+.services-item .column2 {
+    width: 10%;
+    text-align: right;
+}
+
+.services-item .progres {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.services-item .progress-1 {
+    background: #b1e19b;
+}
+
+.services-item .progress-2 {
+    background: #ace2f8;
+}
+
+.services-item .progress-3 {
+    background: #ace2f8;
+}
+
+.services-name {
+    position: relative;
+    z-index: 2;
+    color: #000;
+    padding: 0 0 0 5px;
+    margin: 0;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.services .total-count {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;
+
+}
+
+
+.comment-space {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.comment-space .comment-date {
+    margin: 10px;
+    color: #808080;
+    font-family: Arial;
+    font-size: 11px;
+}
+
+.comment-space .comment-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.comment-space .comment-text {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 10px 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    background-color: #f2fbff;
+}
+
+
+.all-comments {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.all-comments .column1 {
+}
+
+.all-comments .column2 {
+}
+
+.all-comments ul {
+    display: flex;
+    align-items: center;
+}
+
+.all-comments ul li {
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.all-comments ul li:last-of-type {
+    margin-right: 0;
+}
+
+.comment-form {
+    margin: 30px;
+}
+
+.add-button {
+    max-width: 282px;
+    width: 100%;
+    background-color: #fdd639;
+    border-radius: 15px;
+    color: #333333;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 700;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    padding: 12px 0;
+}
+
+
+
+
+
+
+
+
+
+
