@@ -158,7 +158,7 @@ textarea {
 
 .manager-name {
     color: #333333;
-    font-family: Arial;
+    font-family: "Arial -MT";
     font-size: 16px;
     font-weight: 700;
 }
@@ -220,6 +220,7 @@ textarea {
 .services-wrap {
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 .services {
@@ -233,7 +234,7 @@ textarea {
     display: block;
     padding-right: 45px;
     font-size: 14px;
-
+    padding-top: 0;
 }
 
 .services-list {
@@ -338,10 +339,12 @@ textarea {
 
 }
 
-.all-comments .column1 {
+.all-comments .column2 span {
+    margin-right: 15px;
 }
 
-.all-comments .column2 {
+.all-comments .column2 img {
+    margin-right: 5px;
 }
 
 .all-comments ul {

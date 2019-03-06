@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url(../../shared/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url(../../shared/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Arial -MT";
+    src: url(../../shared/fonts/ArialMT.ttf);
+}
